@@ -1,4 +1,7 @@
 {
   "item.sndiapers.diaper": "Diaper",
-  "item.sndiapers.goldfish": "Goldfish"
+  "item.sndiapers.goldfish": "Goldfish",
+
+  "block.sndiapers.pail": "Pail",
+  "block.sndiapers.used_diaper_pile": "Used Diaper Pile"
 }
