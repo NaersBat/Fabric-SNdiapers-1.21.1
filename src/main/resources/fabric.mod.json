@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "sndiapers",
+	"version": "${version}",
+	"name": "SN Diapers",
+	"description": "Mod for silly cute crinkly smushy stuff :3",
+	"authors": [
+		"Naers Bunk"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/sndiapers/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.naersbunk.sndiapers.SNDiapers"
+		],
+		"fabric-datagen": [
+			"net.naersbunk.sndiapers.SNDiapersDataGenerator"
+		],
+        "client": [
+          "net.naersbunk.sndiapers.SNDiapersClient"
+        ]
+	},
+	"mixins": [
+		"sndiapers.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
