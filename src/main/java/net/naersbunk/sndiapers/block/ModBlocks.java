@@ -14,7 +14,7 @@ import net.naersbunk.sndiapers.SNDiapers;
 
 public class ModBlocks {
     public static final Block PAIL = registerBlock("pail",
-            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.METAL)));
+            new Block(AbstractBlock.Settings.create().strength(2f).sounds(BlockSoundGroup.METAL)));
 
     public static final Block USED_DIAPER_PILE = registerBlock("used_diaper_pile",
             new Block(AbstractBlock.Settings.create().strength(2f).sounds(BlockSoundGroup.MUD)));
