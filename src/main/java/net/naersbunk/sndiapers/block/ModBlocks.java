@@ -32,7 +32,7 @@ public class ModBlocks {
     public static void registerModBlocks() {
         SNDiapers.LOGGER.info("Registering mod blocks for " + SNDiapers.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS)
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INVENTORY)
                 .register(entries -> {
                     entries.add(ModBlocks.PAIL);
                     entries.add(ModBlocks.USED_DIAPER_PILE);

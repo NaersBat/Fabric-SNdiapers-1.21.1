@@ -3,5 +3,7 @@
   "item.sndiapers.goldfish": "Goldfish",
 
   "block.sndiapers.pail": "Pail",
-  "block.sndiapers.used_diaper_pile": "Used Diaper Pile"
+  "block.sndiapers.used_diaper_pile": "Used Diaper Pile",
+
+  "itemgroup.tutorialmod.sn_diaper_items": "SN Diapers"
 }

@@ -19,7 +19,7 @@ public class ModItems {
     public static void registerModItems() {
         SNDiapers.LOGGER.info("Registering mod items for " + SNDiapers.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INVENTORY).register(entries -> {
             entries.add(DIAPER);
             entries.add(GOLDFISH);
         });
