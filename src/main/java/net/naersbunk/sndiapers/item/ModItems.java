@@ -10,7 +10,8 @@ import net.naersbunk.sndiapers.SNDiapers;
 
 public class ModItems {
     public static final Item DIAPER = registerItem("diaper", new Item(new Item.Settings()));
-    public static final Item GOLDFISH = registerItem("goldfish", new Item(new Item.Settings()));
+    public static final Item GOLDFISH = registerItem("goldfish", new Item(new Item.Settings()
+            .food(ModFoodComponents.GOLDFISH)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(SNDiapers.MOD_ID, name), item);
