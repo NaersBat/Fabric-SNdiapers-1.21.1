@@ -17,7 +17,7 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(2f).sounds(BlockSoundGroup.METAL)));
 
     public static final Block USED_DIAPER_PILE = registerBlock("used_diaper_pile",
-            new Block(AbstractBlock.Settings.create().strength(2f).sounds(BlockSoundGroup.MUD)));
+            new Block(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.MUD)));
 
     public static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
